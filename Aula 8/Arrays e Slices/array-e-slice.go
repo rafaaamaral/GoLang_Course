@@ -26,4 +26,21 @@ func main() {
 
 	slice = append(slice, 6)
 	fmt.Println(slice)
+
+	//ARRAYS INTERNOS
+	fmt.Println("Arrays Internos")
+	slice3 := make([]int, 5, 6)
+
+	fmt.Println(slice3)
+	fmt.Println(len(slice3))
+	fmt.Println(cap(slice3))
+
+	slice3 = append(slice3, 1)
+	fmt.Println(slice3)
+
+	slice3 = append(slice3, 1)
+
+	fmt.Println(slice3)
+	fmt.Println(len(slice3))
+	fmt.Println(cap(slice3))
 }
